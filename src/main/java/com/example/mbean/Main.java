@@ -1,10 +1,10 @@
-package com.example;
+package com.example.mbean;
 
 import javax.management.MBeanServer;
 import javax.management.ObjectName;
 import java.lang.management.ManagementFactory;
 
-public class MBeanMain {
+public class Main {
 
     public static void main(String[] args) throws Exception {
         MBeanServer server = ManagementFactory.getPlatformMBeanServer();
